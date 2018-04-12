@@ -45,6 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormTHR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTHR.Designer.cs">
+      <DependentUpon>FormTHR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="串口助手.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="串口助手.Designer.cs">
+      <DependentUpon>串口助手.cs</DependentUpon>
+    </Compile>
     <Compile Include="主窗体.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +71,12 @@
     <Compile Include="次窗体.Designer.cs">
       <DependentUpon>次窗体.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormTHR.resx">
+      <DependentUpon>FormTHR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="串口助手.resx">
+      <DependentUpon>串口助手.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="主窗体.resx">
       <DependentUpon>主窗体.cs</DependentUpon>
     </EmbeddedResource>

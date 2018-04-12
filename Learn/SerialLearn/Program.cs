@@ -16,7 +16,8 @@ namespace SerialLearn
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 主窗体());
+            //Application.Run(new 主窗体());
+            Application.Run(new 串口助手());
         }
     }
 }

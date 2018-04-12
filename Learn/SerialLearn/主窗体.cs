@@ -34,7 +34,13 @@ namespace SerialLearn
 
         private void 主窗体_Click(object sender, EventArgs e)
         {
-            次窗体 form = new 次窗体();
+            //次窗体 form = new 次窗体();
+            //form.ShowDialog();
+        }
+
+        private void bt_thr_Click(object sender, EventArgs e)
+        {
+            FormTHR form = new FormTHR();
             form.ShowDialog();
         }
     }
